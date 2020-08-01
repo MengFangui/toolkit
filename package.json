@@ -1,0 +1,16 @@
+{
+  "name": "toolkit",
+  "version": "0.0.1",
+  "private": true,
+  "description": "常用工具函数",
+  "author": "mengfangui",
+  "scripts": {
+    "serve": "docsify serve docs"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "keywords": [
+    "toolkit"
+  ],
+  "license": "MIT"
+}
