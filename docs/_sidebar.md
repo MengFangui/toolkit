@@ -27,11 +27,14 @@
 
 - 数组
 
-	- [test](数组/test.md)
+	- [remove](数组/remove.md)
 
 
 - 通用
 
+	- [isDef](通用/isDef.md)
+	- [isPrimitive](通用/isPrimitive.md)
+	- [isPromise](通用/isPromise.md)
 	- [isUndef](通用/isUndef.md)
 
 
