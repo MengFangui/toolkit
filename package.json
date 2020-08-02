@@ -5,7 +5,8 @@
   "description": "常用工具函数",
   "author": "mengfangui",
   "scripts": {
-    "serve": "docsify serve docs"
+    "serve": "docsify serve docs",
+    "build-sidebar": "node ./build/index.js"
   },
   "dependencies": {},
   "devDependencies": {},
