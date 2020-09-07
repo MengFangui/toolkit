@@ -1,3 +1,11 @@
+/*
+ * @Author: 孟繁贵
+ * @Date: 2020-08-02 17:50:16
+ * @LastEditTime: 2020-09-07 16:06:48
+ * @LastEditors: 孟繁贵
+ * @Description: 
+ * @FilePath: \toolkit\build\index.js
+ */
 const fs = require('fs')
 
 const documentationFolder = 'docs'
@@ -42,6 +50,7 @@ async function buildSidebar (watchEventType) {
    await buildSection('数组') + '\n\n\n' +
    await buildSection('通用') + '\n\n\n' +
    await buildSection('网站') + '\n\n\n' +
+   await buildSection('性能优化') + '\n\n\n' +
    await buildSection('字符串') + '\n\n\n' +
    await buildSection('node') + '\n\n\n'
 
@@ -55,6 +64,7 @@ fs.watch(`${documentationFolder}/日期`, buildSidebar)
 fs.watch(`${documentationFolder}/数学`, buildSidebar)
 fs.watch(`${documentationFolder}/数组`, buildSidebar)
 fs.watch(`${documentationFolder}/网站`, buildSidebar)
+fs.watch(`${documentationFolder}/性能优化`, buildSidebar)
 fs.watch(`${documentationFolder}/通用`, buildSidebar)
 fs.watch(`${documentationFolder}/字符串`, buildSidebar)
 fs.watch(`${documentationFolder}/node`, buildSidebar)
