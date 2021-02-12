@@ -7,7 +7,7 @@
 
 - 函数
 
-	- [test](函数/test.md)
+	- [broadcast](函数/broadcast.md)
 
 
 - 集合
@@ -22,7 +22,7 @@
 
 - 数学
 
-	- [test](数学/test.md)
+	- [toFixed](数学/toFixed.md)
 
 
 - 数组
@@ -40,7 +40,14 @@
 
 - 网站
 
-	- [test](网站/test.md)
+	- [npm](网站/npm.md)
+	- [web](网站/web.md)
+
+
+- 性能优化
+
+	- [modern](性能优化/modern.md)
+	- [按需加载](性能优化/按需加载.md)
 
 
 - 字符串
@@ -50,6 +57,15 @@
 
 - node
 
+	- [定时任务](node/定时任务.md)
+	- [热更新](node/热更新.md)
 	- [路径](node/路径.md)
+
+
+- typescript
+
+	- [可选链运算符](typescript/可选链运算符.md)
+	- [泛型-可选属性](typescript/泛型-可选属性.md)
+	- [空值合并运算符](typescript/空值合并运算符.md)
 
 

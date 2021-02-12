@@ -6,10 +6,12 @@
   "author": "mengfangui",
   "scripts": {
     "serve": "docsify serve docs",
-    "build-sidebar": "node ./build/index.js"
+    "build-sidebar": "nodemon ./build/index.js"
   },
   "dependencies": {},
-  "devDependencies": {},
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
   "keywords": [
     "toolkit"
   ],

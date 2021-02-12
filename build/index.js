@@ -52,7 +52,8 @@ async function buildSidebar (watchEventType) {
    await buildSection('网站') + '\n\n\n' +
    await buildSection('性能优化') + '\n\n\n' +
    await buildSection('字符串') + '\n\n\n' +
-   await buildSection('node') + '\n\n\n'
+   await buildSection('node') + '\n\n\n' +
+   await buildSection('typescript') + '\n\n\n'
 
   fs.writeFileSync(`${documentationFolder}/_sidebar.md`, content)
 }
@@ -68,5 +69,6 @@ fs.watch(`${documentationFolder}/性能优化`, buildSidebar)
 fs.watch(`${documentationFolder}/通用`, buildSidebar)
 fs.watch(`${documentationFolder}/字符串`, buildSidebar)
 fs.watch(`${documentationFolder}/node`, buildSidebar)
+fs.watch(`${documentationFolder}/typescript`, buildSidebar)
 
 buildSidebar()

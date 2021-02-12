@@ -1,7 +1,7 @@
 <!--
  * @Author: 孟繁贵
  * @Date: 2020-08-31 14:18:18
- * @LastEditTime: 2020-09-07 15:08:29
+ * @LastEditTime: 2020-09-07 16:50:42
  * @LastEditors: 孟繁贵
  * @Description: 
  * @FilePath: \toolkit\docs\网站\npm.md
@@ -29,3 +29,11 @@
 # 命令行参数commander
 
 [网址](https://github.com/tj/commander.js/blob/HEAD/Readme_zh-CN.md#commanderjs)
+
+# url安全处理
+
+[网址](https://www.npmjs.com/package/@braintree/sanitize-url)
+
+# base64
+
+[网址](https://www.npmjs.com/package/js-base64)
