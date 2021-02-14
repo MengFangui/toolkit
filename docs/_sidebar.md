@@ -36,6 +36,7 @@
 	- [isPrimitive](通用/isPrimitive.md)
 	- [isPromise](通用/isPromise.md)
 	- [isUndef](通用/isUndef.md)
+	- [类型检测](通用/类型检测.md)
 
 
 - 网站
