@@ -61,6 +61,7 @@
 
 	- [redis](node/redis.md)
 	- [定时任务](node/定时任务.md)
+	- [日志文件记录](node/日志文件记录.md)
 	- [热更新](node/热更新.md)
 	- [路径](node/路径.md)
 
