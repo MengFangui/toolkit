@@ -72,5 +72,6 @@
 	- [可选链运算符](typescript/可选链运算符.md)
 	- [泛型-可选属性](typescript/泛型-可选属性.md)
 	- [空值合并运算符](typescript/空值合并运算符.md)
+	- [高级类型](typescript/高级类型.md)
 
 
